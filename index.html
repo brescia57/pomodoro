@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pomodoro Clock</title>
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<h1 class="named">Pomodoro Clock</h1>
+			<!--change 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" id="session">Session</div>
+					<div class="col-md-6" id="break">Break</div>
+				</div>
+				<div class="row" id="nombre">
+					<div class="col-md-6" id="time">
+					<button><span class="glyphicon glyphicon-chevron-down" id="down"></span></button>
+					<p>25</p>
+					<button><span class="glyphicon glyphicon-chevron-up" id="up"></span></button>
+					</div>
+					<div class="col-md-6" id="time">
+					<button><span class="glyphicon glyphicon-chevron-down" id="down"></span></button>
+					<p>5</p>
+					<button><span class="glyphicon glyphicon-chevron-up" id="up"></span></button>
+					</div>
+				</div>
+			</div>
+			-->
+
+
+			<div id="container">
+				<div class="row" id="play">
+					<div>
+						<button type="button" class="btn btn-default btn-lg">
+							<span class="glyphicon glyphicon-play-circle"></span>
+						</button>
+					</div>
+					<!--
+					<div class="col-md-6">
+						<button type="button" class="btn btn-default btn-lg">
+							<span class="glyphicon glyphicon-refresh" id="refresh"></span>
+						</button>
+					</div>
+					-->
+				</div>
+
+				<div class="row" id="main">
+					<p>Session</p>
+				</div>
+
+				<div class="row" id="twentyfive">
+					<button><span class="glyphicon glyphicon-pause" id="shortBreak"></span></button>
+					<div id="letemp">
+						<span id="minutes">25</span><span id="colon">:</span><span id="seconds">00</span>
+						</div>
+					<button><span class="glyphicon glyphicon-stop" id="stop"></span></button>
+				</div>
+
+				
+			</div>
+	</body>
+</html>

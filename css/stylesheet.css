@@ -1,0 +1,69 @@
+.named{
+	text-align: center;
+}
+
+.contain{
+	border-left: -200px;
+}
+
+#container{
+	width: 400px;
+	margin: 20px auto;
+	border-radius: 60px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+.row{
+	border: 1px solid black;
+	text-align: center;
+	display: flex;
+	border-radius: 50px;
+}
+
+.col-md-6{
+	display: block;
+	text-align: center;
+}
+
+#session{
+	width: 50%;
+}
+
+#break{
+	width: 50%;
+}
+
+#twentyfive{
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#main{
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#nombre{
+	display: flex;
+	
+	text-align: center;
+}
+
+#time{
+	width: 50%;
+}
+
+p{
+	font-size: 30px;
+}
+
+#play{
+	display: block;
+	position: relative;
+	text-align: center;
+	background: gray;
+}
